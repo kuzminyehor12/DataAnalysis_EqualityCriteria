@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab3_DataAnalysis.Computing\Lab3_DataAnalysis.Computing.csproj" />
+    <ProjectReference Include="..\Lab3_DataAnalysis.DataSource\Lab3_DataAnalysis.DataSource.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataAnalysis1.Computing">
+      <HintPath>..\..\Lab1_DataAnalysis\DataAnalysis1.Computing\bin\Debug\DataAnalysis1.Computing.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAnalysis1.DataSource">
+      <HintPath>..\..\Lab1_DataAnalysis\DataAnalysis1.Computing\bin\Debug\DataAnalysis1.DataSource.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
